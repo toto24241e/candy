@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #fff0f5;
+    padding: 20px;
+    color: #333;
+}
+
+h1, h2 {
+    color: #e91e63;
+}
+
+a.boton {
+    background: #e91e63;
+    color: white;
+    padding: 8px 12px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+}
+
+input, textarea, button {
+    margin: 5px 0;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background: #e91e63;
+    color: white;
+    cursor: pointer;
+}
+.btn-editar, .btn-eliminar {
+    padding: 6px 12px;
+    border-radius: 4px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin: 0 2px;
+}
+
+.btn-editar {
+    background-color: #4caf50; /* Verde */
+}
+
+.btn-eliminar {
+    background-color: #f44336; /* Rojo */
+}
+
+.btn-editar:hover {
+    background-color: #45a049;
+}
+
+.btn-eliminar:hover {
+    background-color: #e53935;
+}
+
